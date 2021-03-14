@@ -117,7 +117,7 @@ class Backup:
                       Fore.LIGHTRED_EX + post.status_code)
                 quit()
 
-        print('\nФсе файлы успешно загружены в директорию:',
+        print('\nВсе файлы успешно загружены в директорию:',
               Fore.LIGHTBLUE_EX + ya_dir[1])
 
         return tqdm
